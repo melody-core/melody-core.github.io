@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>@melody-core/melody-cli | 音巢</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="音巢(melody-core),谱写技术最强音!">
+    
+    <link rel="preload" href="/assets/css/0.styles.e2de7bcd.css" as="style"><link rel="preload" href="/assets/js/app.5e18a27c.js" as="script"><link rel="preload" href="/assets/js/2.e79ef35e.js" as="script"><link rel="preload" href="/assets/js/19.abc1665a.js" as="script"><link rel="prefetch" href="/assets/js/10.bd6049f3.js"><link rel="prefetch" href="/assets/js/11.3c9382f7.js"><link rel="prefetch" href="/assets/js/12.2c9e9267.js"><link rel="prefetch" href="/assets/js/13.86d708f0.js"><link rel="prefetch" href="/assets/js/14.530056cc.js"><link rel="prefetch" href="/assets/js/15.28f7b922.js"><link rel="prefetch" href="/assets/js/16.fbbec826.js"><link rel="prefetch" href="/assets/js/17.8d1b7ff9.js"><link rel="prefetch" href="/assets/js/18.340655ee.js"><link rel="prefetch" href="/assets/js/20.27c78021.js"><link rel="prefetch" href="/assets/js/21.05df4041.js"><link rel="prefetch" href="/assets/js/22.900f038f.js"><link rel="prefetch" href="/assets/js/23.08ec44a2.js"><link rel="prefetch" href="/assets/js/3.f91db881.js"><link rel="prefetch" href="/assets/js/4.97c039ba.js"><link rel="prefetch" href="/assets/js/5.c31107b6.js"><link rel="prefetch" href="/assets/js/6.004ca1a2.js"><link rel="prefetch" href="/assets/js/7.2e2085cc.js"><link rel="prefetch" href="/assets/js/8.a59e1842.js"><link rel="prefetch" href="/assets/js/9.889ace76.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e2de7bcd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="音巢" class="logo"> <span class="site-name can-hide">音巢</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://melody-core.github.io/rem/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Rem UI
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/melody-core/melody-cli/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  melody-doc-org
+</a></div><div class="nav-item"><a href="https://github.com/melody-core" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  melody-github-org
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://www.npmjs.com/org/melody-core/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  melody-npm-org
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://melody-core.yuque.com/dashboard" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  melody-yuque-org
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/melody-core/melody-core-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    doc-repo
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://melody-core.github.io/rem/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Rem UI
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="/melody-core/melody-cli/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  melody-doc-org
+</a></div><div class="nav-item"><a href="https://github.com/melody-core" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  melody-github-org
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://www.npmjs.com/org/melody-core/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  melody-npm-org
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://melody-core.yuque.com/dashboard" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  melody-yuque-org
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/melody-core/melody-core-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    doc-repo
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>组织</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/melody-core/mc-org/" class="sidebar-link">简介</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>RemUI</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>CLI文档集锦</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/melody-core/melody-cli/" aria-current="page" class="active sidebar-link">melody-cli</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#特性" class="sidebar-link">特性</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#背景故事" class="sidebar-link">背景故事</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#快速使用" class="sidebar-link">快速使用</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#概念" class="sidebar-link">概念</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#基础命令" class="sidebar-link">基础命令</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#官方套件" class="sidebar-link">官方套件</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#外界套件" class="sidebar-link">外界套件</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#自定义套件-套件开发" class="sidebar-link">自定义套件/套件开发</a></li><li class="sidebar-sub-header"><a href="/melody-core/melody-cli/#开发文档" class="sidebar-link">开发文档</a></li></ul></li><li><a href="/melody-core/leo/" class="sidebar-link">leo</a></li><li><a href="/melody-core/holmes/" class="sidebar-link">holmes</a></li><li><a href="/melody-core/cli-spy/" class="sidebar-link">cli-spy</a></li><li><a href="/melody-core/historian/" class="sidebar-link">historian</a></li><li><a href="/melody-core/ram/" class="sidebar-link">ram</a></li><li><a href="/melody-core/melody-git-hooks/" class="sidebar-link">melody-git-hooks</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>屠龙术文档集锦</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/melody-core/ds/W_BDG/" class="sidebar-link">W_BDG</a></li><li><a href="/melody-core/ds/W_EOS/" class="sidebar-link">W_EOS</a></li><li><a href="/melody-core/ds/W_CMC/" class="sidebar-link">W_CMC</a></li><li><a href="/melody-core/ds/W_LCP/" class="sidebar-link">W_LCP</a></li><li><a href="/melody-core/ds/W_UBC/" class="sidebar-link">W_UBC</a></li><li><a href="/melody-core/ds/W_CLE/" class="sidebar-link">W_CLE</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="melody-core-melody-cli"><a href="#melody-core-melody-cli" class="header-anchor">#</a> @melody-core/melody-cli</h1> <blockquote><p>@melody-core 组织是一个年轻团队组成的开源组织，寓意旋律之主。@melody-core/melody-cli 是由组织内@六弦 @wxydesign 开发的命令行集成管理工具，它的能力来源于它集成的外部套件。</p></blockquote> <p>一个强大的、便捷的命令行集成管理工具，支持插拔式的命令工具集成，拥有完善的文档，支持自定义套件开发与集成。</p> <h2 id="特性"><a href="#特性" class="header-anchor">#</a> 特性</h2> <ul><li>自动化管理自身 - 每次运行 melody-cli 时，它会告诉你是否需要更新它。</li> <li>插拔式管理套件 - 方便的集成和管理套件。</li> <li>关注点分离 - melody-cli 与套件之间几乎是完全解耦的，每个套件都可以是独立的。</li> <li>便捷自由的套件开发 - 如果你想开发一个套件，建议直接使用 leo 的 cli 套件模板哦。</li></ul> <h2 id="背景故事"><a href="#背景故事" class="header-anchor">#</a> 背景故事</h2> <p>小明是某大厂的程序员，他善于使用各种命令行工具来实现他的某些需求———但随着公司以及社区的命令行工具安装的越来越多，他开始烦恼于如何记忆他们、管理他们； 而小明正在烦恼的时候，却不知道隔壁业务线又产出了新的命令行工具。<br></p> <ul><li>小明期望有一个统一的入口，来集成和管理所有命令</li> <li>小明期望能方便的统一观察所有公司内产出的命令行工具，而不是单独的一个个了解它们</li></ul> <p>而小明期望的，就是@melody-core/melody-cli 的存在意义。</p> <h2 id="快速使用"><a href="#快速使用" class="header-anchor">#</a> 快速使用</h2> <blockquote><p>node 版本支持: &gt;=8.0.0 本地需要安装 yarn</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code>    <span class="token comment"># 安装</span>
+    <span class="token function">yarn</span> global <span class="token function">add</span> @melody-core/melody-cli
+    <span class="token comment"># 运行 melody 命令 即可查看帮助和文档</span>
+</code></pre></div><h2 id="概念"><a href="#概念" class="header-anchor">#</a> 概念</h2> <h3 id="命令行管理工具"><a href="#命令行管理工具" class="header-anchor">#</a> 命令行管理工具</h3> <p>melody-cli，是用来管理命令行工具的命令行工具。这么说可能有点绕，也许下面的两个例子可以让你明白：</p> <blockquote><p>@melody-core/leo 是旋律组织开发的模板脚手架命令工具，它的作用是快速生成项目——类似”create-raect
+-app“、”@vue/cli“，但@melody-core/leo 集成的模板更加丰富，因为它的模板是不断增加的。</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code>    <span class="token comment">#  @melody-core/leo 可以单独安装使用，但也可以将其作为melody-cli的一个套件；</span>
+    <span class="token comment"># 我们可以通过 melody search 或者 melody search @melody-core/leo来获取到leo的信息</span>
+    melody search
+    <span class="token comment"># 安装套件</span>
+    melody <span class="token function">install</span> @melody-core/leo
+    <span class="token comment"># 即可使用套件</span>
+    melody leo
+</code></pre></div><blockquote><p>http-server 是一个比较知名的开源包，我们经常使用它来启动一个 http-server 服务。</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code>    <span class="token comment"># 它当然也可以作为melody的套件。我们首先安装它</span>
+    melody <span class="token function">install</span> http-server
+    <span class="token comment"># 这时我们运行melody发现, 已经拓展了http-server命令</span>
+    melody
+
+    🎵 @melody-core/melody-cli版本检索完毕, 已是最新版本: <span class="token number">1.0</span>.13
+    Usage: melody <span class="token punctuation">[</span>options<span class="token punctuation">]</span> <span class="token punctuation">[</span>command<span class="token punctuation">]</span>
+
+    Options:
+    -V, --version      output the version number
+    -v, --version      查看当前版本
+    -h, --help         display <span class="token builtin class-name">help</span> <span class="token keyword">for</span> <span class="token builtin class-name">command</span>
+
+    Commands:
+    search             列出官方所有套件
+    list               列出已安装的套件列表
+    <span class="token function">install</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>  安装套件
+    remove <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>   删除套件
+    update <span class="token punctuation">[</span>package<span class="token punctuation">]</span>   更新套件
+    desc  <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>    更改套件描述
+    leo                初始化项目的脚手架命令工具
+    http-server        未知套件, 您可以通过命令 melody des <span class="token punctuation">\</span><span class="token operator">&lt;</span>pluginName<span class="token punctuation">\</span><span class="token operator">&gt;</span> <span class="token punctuation">\</span><span class="token operator">&lt;</span>description<span class="token punctuation">\</span><span class="token operator">&gt;</span> 来更改它的描述
+    <span class="token builtin class-name">help</span> <span class="token punctuation">[</span>command<span class="token punctuation">]</span>     display <span class="token builtin class-name">help</span> <span class="token keyword">for</span> <span class="token builtin class-name">command</span>
+
+    <span class="token comment"># 我们可以更改对它的描述以便对它进行管理</span>
+    melody desc http-server
+
+    <span class="token operator">&gt;</span> 用来启动http服务的套件。
+    <span class="token comment"># 我们可以通过 melody http-server来运行它的相关功能</span>
+    melody http-server -h
+
+    <span class="token comment"># 在当前目录下启动一个http-server服务。</span>
+    melody http-server -c
+
+</code></pre></div><h3 id="套件"><a href="#套件" class="header-anchor">#</a> 套件</h3> <p>每个符合 melody-cli 套件规范的 npm 包，都可以被视作为它的套件。套件可以理解为插件，可以扩展 melody 的命令，从而扩展 melody 的功能。</p> <blockquote><p>例如 @melody-core/leo</p></blockquote> <p>而每个套件都是独立的 npm 包，因此它们当然也可以被单独安装使用。</p> <div class="language-shell extra-class"><pre class="language-shell"><code>    <span class="token comment"># 单独安装 @melody-core/leo</span>
+    <span class="token function">yarn</span> global <span class="token function">add</span> @melody-core/leo
+    <span class="token comment"># 使用它</span>
+    leo
+</code></pre></div><p>然而就像背景里讲的那样，我们为了方便集成管理，更期望用一个统一的入口去集成所有的命令，这让我们可以更方便的管理所有包，更可以随时了解组织内产出的包。</p> <h3 id="套件类别"><a href="#套件类别" class="header-anchor">#</a> 套件类别</h3> <p>为了更方便的管理套件，我们给每个套件定义一个类别,方便用户们进一步分类和了解该套件。</p> <h2 id="基础命令"><a href="#基础命令" class="header-anchor">#</a> 基础命令</h2> <table><thead><tr><th>命令</th> <th>描述</th> <th>具体使用</th> <th>补充</th></tr></thead> <tbody><tr><td>melody search</td> <td>查询官方套件列表</td> <td>melody search</td> <td>列出所有 melody-cli 官方套件</td></tr> <tr><td>melody list</td> <td>查询已安装套件列表</td> <td>melody list</td> <td>列出所有已安装的套件</td></tr> <tr><td>melody install</td> <td>安装套件</td> <td>melody install &lt;package&gt;</td> <td>package 必填，例：melody install @melody-core/leo</td></tr> <tr><td>melody remove</td> <td>删除套件</td> <td>melody remove &lt;package&gt;</td> <td>package 必填，例：melody remove @melody-core/leo</td></tr> <tr><td>melody update</td> <td>更新套件</td> <td>melody update [package]</td> <td>不填参数时，默认更新所有 melody-cli 套件</td></tr> <tr><td>melody desc</td> <td>更改套件的描述</td> <td>melody desc &lt;package&gt;</td> <td>package 必填, 例: melody desc http-server</td></tr></tbody></table> <h2 id="官方套件"><a href="#官方套件" class="header-anchor">#</a> 官方套件</h2> <blockquote><p>运行命令 melody search 即可查看所有官方命令行套件哦</p></blockquote> <table><thead><tr><th>包</th> <th>命令</th> <th>描述</th> <th>具体使用</th> <th>补充</th></tr></thead> <tbody><tr><td>@melody-core/leo</td> <td>leo</td> <td>生成模板的脚手架命令</td> <td>melody leo [command][options]</td> <td>一个便捷集成和管理项目模板的脚手架命令行工具</td></tr></tbody></table> <h2 id="外界套件"><a href="#外界套件" class="header-anchor">#</a> 外界套件</h2> <blockquote><p>理论上任何全局包，都可以作为 melody 的插件。
+比如 http-server 是一个启动 http-server 服务的包,我们可以通过 melody 去安装/管理/使用它</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code>    <span class="token comment"># 安装</span>
+    melody <span class="token function">install</span> http-server
+    <span class="token comment"># 查看命令里 已拓展了http-server</span>
+    melody -h
+    <span class="token comment"># 查看http-server的使用帮助</span>
+    melody http-server -h
+
+    <span class="token comment"># 我们可以给它加一个描述</span>
+    melody desc http-server
+    <span class="token operator">&gt;</span>请输入对http-server的描述:
+    ： 用来启动http服务的包。
+
+    <span class="token comment"># 当前目录下使用它启动一个http-server服务</span>
+    melody http-server -c
+</code></pre></div><h2 id="自定义套件-套件开发"><a href="#自定义套件-套件开发" class="header-anchor">#</a> 自定义套件/套件开发</h2> <h3 id="套件开发"><a href="#套件开发" class="header-anchor">#</a> 套件开发</h3> <blockquote><p>你可以自由的开发自定义套件并在 melody-cli 中集成它，我们为您提供了 melody-kit-template 模板，您可以用过 leo 来选择它快速生成您的项目</p></blockquote> <div class="language-shell extra-class"><pre class="language-shell"><code>   <span class="token comment"># 前置，安装了leo套件，并且在联网环境(为了拉下模板)。</span>
+   melody leo init
+   <span class="token comment"># 此处选择  melody-plugin-template 即可。</span>
+</code></pre></div><h3 id="使用开发模式来调试您的套件"><a href="#使用开发模式来调试您的套件" class="header-anchor">#</a> 使用开发模式来调试您的套件</h3> <p>在你进入了项目的根目录后，即开启 melody 套件开发模式</p> <div class="language-shell extra-class"><pre class="language-shell"><code>    <span class="token comment"># 前置，在自定义套件项目的根目录下</span>
+    node ./index.js
+    <span class="token comment"># 这时候你就能在test命令分类下查看到您自定义的套件命令，并可以运行它</span>
+</code></pre></div><h3 id="发布套件"><a href="#发布套件" class="header-anchor">#</a> 发布套件</h3> <div class="language-shell extra-class"><pre class="language-shell"><code>    <span class="token comment"># 套件项目根目录下运行：</span>
+    melody publish
+</code></pre></div><h2 id="开发文档"><a href="#开发文档" class="header-anchor">#</a> 开发文档</h2> <h3 id="commander"><a href="#commander" class="header-anchor">#</a> commander</h3> <p>如果你想开发套件，甚至参与 melody-cli 的开发，建议你先玩一下 commander，因为 melody-cli 和套件原则上都是基于它开发的。 <br>
+它的官方文档地址：
+https://github.com/tj/commander.js/blob/HEAD/Readme_zh-CN.md</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/melody-core/melody-core-docs/edit/master/docs/melody-core/melody-cli/README.md" target="_blank" rel="noopener noreferrer">参与文档维护</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">8/7/2021, 10:52:54 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/melody-core/rem/" class="prev">
+        Rem组件库文档
+      </a></span> <span class="next"><a href="/melody-core/leo/">
+        leo
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5e18a27c.js" defer></script><script src="/assets/js/2.e79ef35e.js" defer></script><script src="/assets/js/19.abc1665a.js" defer></script>
+  </body>
+</html>
